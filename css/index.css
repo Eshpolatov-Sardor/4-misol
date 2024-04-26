@@ -1,0 +1,54 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_div{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main{
+    margin-top: 100px;
+    display: flex;
+    
+   position: relative;
+}
+.main_img{
+    padding: 40px 0;
+}
+.main_img1{
+    padding: 50px 0;
+}
+.main_div{
+   position: absolute;
+   z-index: -1;
+   right: 0;
+   height: 200px;
+}
+.main_span{
+    display: flex;
+    align-items:center;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.main_span p{
+    text-align: center;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+}
+.main_div_img{
+    width: 500px;
+    height: 580px;
+}
